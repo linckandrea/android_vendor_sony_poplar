@@ -1902,4 +1902,5 @@ PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
     IWlanService \
+    FidoCryptoService \
     TimeService

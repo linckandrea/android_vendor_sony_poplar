@@ -459,6 +459,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "FidoCryptoService",
+	owner: "sony",
+	apk: "proprietary/app/FidoCryptoService/FidoCryptoService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "TimeService",
 	owner: "sony",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
